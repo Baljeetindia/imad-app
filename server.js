@@ -18,7 +18,7 @@ app.get('/firstpage', function (req, res) {
 });
 
 app.get('/sec', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sec.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'Sec.html'));
 });
 
 
